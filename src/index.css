@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.Nav {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+}
+
+body {
+  background-color: rgb(192, 192, 192);
+}
+
+.logo {
+  flex: 1;
+  
+}
+
+.logo img {
+  width: 100px;
+  padding-left: 100px;
+}
+
+
+.menu {
+  flex: 7;
+  display: flex;
+  gap: 50px;
+  font-size: 1.5em;
+  justify-content: flex-end;
+  padding: 0 100px;
+}
+
+
+.menu a {
+  color: rgb(32, 32, 32);
+  text-decoration: none;
+  transition: all 0.5s ease;
+} 
+
+.menu a:hover {
+  border-bottom: solid 2px rgb(32, 32, 32);
+} 
+
+.HomeMain {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.left-home, .right-home {
+  flex: 1;
+}
+
+.left-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-home img {
+  width: 150%;
+  transform: translate(-5%, 0);
+  overflow: hidden;
+}
+
+.text h1 {
+  font-size: 7em;
+  font-weight: 900;
+  margin-bottom: -10px;
+}
+
+.text h3 {
+  margin-bottom: -15px;
+  padding-left: 5px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.auto {
+  color: red;
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: red;
+}
+
+.cta {
+  margin-left: 5px;
+  padding: 10px 40px;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  border-radius: 5px;
+  border-color: red;
+  transition: all 0.15s ease;
+}
+
+.cta .strelka {
+  display: none;
+}
+
+.cta:hover >.strelka {
+  display: inline-block;
+}
+
+.cta:hover {
+  background-color: rgba(255, 0, 0, 0.637);
+  color: white;
+  padding: 10px 50px;
+  cursor: pointer;
+}
+
+.cta:active {
+  background-color: red;
+}
