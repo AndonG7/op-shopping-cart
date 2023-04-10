@@ -9,7 +9,7 @@ function HomeMain() {
         <div className="text">
           <h3>The most luxurious cars</h3>
           <h1><span className="don">DON</span><span className="auto">AUTO</span></h1>
-          <button className="cta">Catalog <span className="strelka"> {" >"}</span></button>
+          <a href="/shop"><button className="cta" href="/shop">Catalog <span className="strelka"> {" >"}</span></button></a>
         </div>
       </div>
       <div className="right-home">
