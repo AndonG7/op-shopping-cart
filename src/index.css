@@ -218,6 +218,10 @@ body {
   cursor: pointer;
 }
 
+.car:active {
+  background-color: rgb(161, 48, 48);
+}
+
 .car:hover .car-title {
   color: white;
 }
