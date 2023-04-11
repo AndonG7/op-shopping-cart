@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/op-shopping-cart/static/css/main.e60558ba.css",
+    "main.js": "/op-shopping-cart/static/js/main.8a8e31b3.js",
+    "static/media/red-ferrari-laferrari-car.png": "/op-shopping-cart/static/media/red-ferrari-laferrari-car.14629004260b12693165.png",
+    "static/media/don-fleet.jpg": "/op-shopping-cart/static/media/don-fleet.aaae8e9aa0147656a2b2.jpg",
+    "static/media/mercgle53.jpg": "/op-shopping-cart/static/media/mercgle53.c99cdc69d2a5580ba9ad.jpg",
+    "static/media/merce63.jpg": "/op-shopping-cart/static/media/merce63.f0af0c2c8ea8c64402ad.jpg",
+    "static/media/bmwm4.jpg": "/op-shopping-cart/static/media/bmwm4.22a12dad31b26386a310.jpg",
+    "static/media/background.jpg": "/op-shopping-cart/static/media/background.7e5a7ec4d4e44bd2fe48.jpg",
+    "static/media/logo.png": "/op-shopping-cart/static/media/logo.31ab7d164c9de8cfcca9.png",
+    "index.html": "/op-shopping-cart/index.html",
+    "main.e60558ba.css.map": "/op-shopping-cart/static/css/main.e60558ba.css.map",
+    "main.8a8e31b3.js.map": "/op-shopping-cart/static/js/main.8a8e31b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e60558ba.css",
+    "static/js/main.8a8e31b3.js"
+  ]
+}
