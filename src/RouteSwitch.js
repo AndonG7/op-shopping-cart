@@ -30,6 +30,8 @@ const RouteSwitch = () => {
       const newArr = [{name: car.name, price: car.price, src: car.src, alt: car.alt}];
       setSelectedCars(selectedCars.concat(newArr));
       setItemCount(itemCount+1);
+
+      
     }
 
     console.log(selectedCars);
